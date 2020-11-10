@@ -26,7 +26,7 @@ const Home = () => {
         onClick={()=> handleClick() } 
         >
             <Navbar color={siteInfo.work?.color} />
-            <Header  />
+            <Header color={siteInfo.work?.color} />
             <h2> {siteInfo.work?.company} </h2>
             
         </div>
