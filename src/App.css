@@ -1,1 +1,7 @@
 
+@media only screen and (max-width: 600px) {
+  #work{
+    padding: 0;
+    margin: 0 !important;
+  }
+}

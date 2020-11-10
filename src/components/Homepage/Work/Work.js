@@ -16,7 +16,7 @@ const Work = ({work}) => {
                 {work?.endDate && <span className="date"> <span> $ </span> {work?.endDate} </span> } 
                 {work?.summary && <span className="summary"> <span> $ </span> {work?.summary} </span> }
                 {work?.highlights &&  <span className="mt-3">   Highlights </span>}
-                {work?.highlights && work?.highlights.map(item =>  <span> ->  {item} </span>)}
+                {work?.highlights && work?.highlights.map(item =>  <span> {`->`} {item} </span>)}
                 
             </div>
         </div>
