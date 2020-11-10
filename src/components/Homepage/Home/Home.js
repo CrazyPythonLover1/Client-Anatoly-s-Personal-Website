@@ -29,13 +29,13 @@ const Home = () => {
                 <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-2">
+                        <div className="col-md-2" onClick={ ()=> handleClick() }>
 
                         </div>
                         <div className="col-md-8">
                             <Work work={siteInfo.work}/>
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2" onClick={ ()=> handleClick() }>
 
                         </div>
                     </div>
