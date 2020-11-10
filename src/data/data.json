@@ -56,7 +56,8 @@
           "Increased number of data sources, improved processing speed and data availability",
           "Oversaw teams of consultants supporting cloud and workstation infrastructure"
         ],
-        "bgColor":"#f8f8fa"
+        "bgColor":"#f8f8fa",
+        "color": "black"
         
       },
       { "id": 2,
@@ -70,7 +71,8 @@
           "Used existing and cutting-edge CUDA algorithms to parallellize complex sorting.",
           "Enabled same simultaneous data insights using simultaneous in-memory on-the-fly analytical processing."
         ],
-        "bgColor":"#282c34"
+        "bgColor":"#282c34",
+        "color": "white"
         
       },
       { "id": 3,
@@ -85,7 +87,8 @@
           "Improved customer experience by introducing new QA code that caught complex billing issues.",
           "Improved analytics for every customer-facing department in the company."
         ],
-        "bgColor":"#00e8ff"
+        "bgColor":"#1565c0",
+        "color": "#ffeb3b"
         
       },
       { "id": 4,
@@ -101,7 +104,8 @@
           "Developing and implementing trading algorithms.",
           "Ab Intio and Informatica consulting – financial data processing, data modeling, and data quality assurance."
         ],
-        "bgColor":"#1abc9c"
+        "bgColor":"#1abc9c",
+        "color": "white"
         
       },
       { "id": 5,
@@ -117,27 +121,31 @@
           "Analyzed and reported results of clinical trials. Provided tables, listings and graphs for final study reports.",
           "Provided project requirements to programmers, managed outside CROs and consultants."
         ],
-        "bgColor":"#e74c3c"
+        "bgColor":"#e74c3c",
+        "color": "white"
         
       },
       { "id": 6,
         "company": "DoubleClick, Inc. (now Google) ",
         "position": "Technical Project Leader",
         "summary": "Developed large scale Business Intelligence solution for e-commerce strategy formulation and web site personalization. Project resulted in substantial growth in global installations and improvement in functionality and scalability across all products.",
-        "bgColor":"#9b59b6"
+        "bgColor":"#9b59b6",
+        "color": "white"
         
       },
       { "id": 7,
         "company": "AIG, Inc.",
         "position": "Database Administrator",
         "summary": "Developed enterprise-wide data warehouse environment for marketing, CRM, and data mining. Project grew into corporate data warehouse environment storing information on all B2B relationships resulting in significant improvement in operations efficiency.",
-        "bgColor":"#e67e22"
+        "bgColor":"#e67e22",
+        "color": "white"
         
       },
       { "id": 8,
         "company": "Metropolitan Life Insurance Company ",
         "position": "Actuarial Student",
-        "bgColor":"#3498db"
+        "bgColor":"#3498db",
+        "color": "white"
       }
     ],
     "education": [
