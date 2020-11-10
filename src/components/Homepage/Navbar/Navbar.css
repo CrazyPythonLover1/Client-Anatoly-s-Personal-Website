@@ -1,0 +1,11 @@
+.nav-link{
+    color: #000000 !important;
+}
+
+.nav-link span{
+    padding-right: 5px;
+}
+
+.nav-item {
+    padding-right: 10px !important;
+}
