@@ -86,6 +86,7 @@
 
 #work > .info > span{
     display:block;
+    font-size: 13px;
 }
 
 #work > .info{

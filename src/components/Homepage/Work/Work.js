@@ -14,7 +14,10 @@ const Work = ({work}) => {
                 <span className="position"> <span> $ </span> {work?.position} </span>
                 {work?.startDate && <span className="date"> <span> $ </span> {work?.startDate} </span>}
                 {work?.endDate && <span className="date"> <span> $ </span> {work?.endDate} </span> } 
-                {work?.summary && <span className="summary"> <span> $ </span> {work?.summary} </span> } 
+                {work?.summary && <span className="summary"> <span> $ </span> {work?.summary} </span> }
+                {work?.highlights &&  <span className="mt-3">   Highlights </span>}
+                {work?.highlights && work?.highlights.map(item =>  <span> ->  {item} </span>)}
+                
             </div>
         </div>
     );
