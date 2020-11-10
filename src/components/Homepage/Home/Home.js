@@ -24,22 +24,23 @@ const Home = () => {
     }
     return (
         <div id="home" style={{background:siteInfo.work?.bgColor, height: "100vh"}}>
-            <div className="container">
+            
                 <Navbar color={siteInfo.work?.color} />
                 <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
-                <h2> {siteInfo.work?.company} </h2>
-                <div className="row">
-                    <div className="col-md-3">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-2">
 
-                    </div>
-                    <div className="col-md-6">
-                        <Work work={siteInfo.work}/>
-                    </div>
-                    <div className="col-md-3">
+                        </div>
+                        <div className="col-md-8">
+                            <Work work={siteInfo.work}/>
+                        </div>
+                        <div className="col-md-2">
 
+                        </div>
                     </div>
                 </div>
-            </div>
+           
         </div>
     );
 };
