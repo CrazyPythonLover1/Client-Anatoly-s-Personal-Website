@@ -139,7 +139,8 @@
         "position": "Database Administrator",
         "summary": "Developed enterprise-wide data warehouse environment for marketing, CRM, and data mining. Project grew into corporate data warehouse environment storing information on all B2B relationships resulting in significant improvement in operations efficiency.",
         "bgColor":"#e67e22",
-        "color": "white"
+        "color": "white",
+        "fontColor":"#432e30"
         
       },
       { "id": 8,
