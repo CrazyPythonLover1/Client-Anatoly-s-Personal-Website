@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Client-Anatoly-s-Personal-Website/static/css/main.e3fa3e9d.chunk.css",
-    "main.js": "/Client-Anatoly-s-Personal-Website/static/js/main.39bbd110.chunk.js",
-    "main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/main.39bbd110.chunk.js.map",
-    "runtime-main.js": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.0bd2bbed.js",
-    "runtime-main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.0bd2bbed.js.map",
-    "static/js/2.032aa019.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/2.032aa019.chunk.js",
-    "static/js/2.032aa019.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/2.032aa019.chunk.js.map",
-    "static/js/3.c6fbe1f1.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/3.c6fbe1f1.chunk.js",
-    "static/js/3.c6fbe1f1.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/3.c6fbe1f1.chunk.js.map",
+    "main.css": "/Client-Anatoly-s-Personal-Website/static/css/main.c7718a17.chunk.css",
+    "main.js": "/Client-Anatoly-s-Personal-Website/static/js/main.cbd84135.chunk.js",
+    "main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/main.cbd84135.chunk.js.map",
+    "runtime-main.js": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.c7d370dd.js",
+    "runtime-main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.c7d370dd.js.map",
+    "static/js/2.07785f4b.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/2.07785f4b.chunk.js",
+    "static/js/2.07785f4b.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/2.07785f4b.chunk.js.map",
+    "static/js/3.48565cb1.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/3.48565cb1.chunk.js",
+    "static/js/3.48565cb1.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/3.48565cb1.chunk.js.map",
     "index.html": "/Client-Anatoly-s-Personal-Website/index.html",
-    "static/css/main.e3fa3e9d.chunk.css.map": "/Client-Anatoly-s-Personal-Website/static/css/main.e3fa3e9d.chunk.css.map",
-    "static/js/2.032aa019.chunk.js.LICENSE.txt": "/Client-Anatoly-s-Personal-Website/static/js/2.032aa019.chunk.js.LICENSE.txt"
+    "static/css/main.c7718a17.chunk.css.map": "/Client-Anatoly-s-Personal-Website/static/css/main.c7718a17.chunk.css.map",
+    "static/js/2.07785f4b.chunk.js.LICENSE.txt": "/Client-Anatoly-s-Personal-Website/static/js/2.07785f4b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bd2bbed.js",
-    "static/js/2.032aa019.chunk.js",
-    "static/css/main.e3fa3e9d.chunk.css",
-    "static/js/main.39bbd110.chunk.js"
+    "static/js/runtime-main.c7d370dd.js",
+    "static/js/2.07785f4b.chunk.js",
+    "static/css/main.c7718a17.chunk.css",
+    "static/js/main.cbd84135.chunk.js"
   ]
 }
