@@ -7,7 +7,7 @@ const Header = ({color,fontColor, handleClick}) => {
         <div id="header" >
             <div className="">
                 <div onClick={ ()=> handleClick() } className="text-center pb-5" >
-                    <h1 className="pt-4 pb-3" style={{color:fontColor, fontWeight:"900", fontSize:" 2rem"}} >
+                    <h1 className="pt-4 pb-3" style={{color:fontColor, fontWeight:"900", fontSize:" 2em"}} >
                         {resumeData.basics.name}
                     </h1>
                     <div style={{color:color}}>

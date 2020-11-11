@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import resumeData from '../../../data/data.json';
 import Work from '../Work/Work';
 import Education from '../Education/Education';
+import Skills from '../Skills/Skills';
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
     return (
         <div id="home" style={{background:siteInfo.work?.bgColor,  minHeight:"100vh"}}>
             
-                <Navbar color={siteInfo.work?.color} />
+                <Navbar color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor}/>
                 <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
                 <div className="container-fluid">
                     <div className="row">
@@ -48,7 +49,9 @@ const Home = () => {
                         </div>
                         <div className="col-md-10 col-sm-12">
                             <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
-                            <div style={{paddingBottom:"100px", width: " 100%", minHeight: "100px", maxHeight: "100%"}} onClick={ ()=> handleClick() } > </div>
+                            <div style={{width: " 100%", minHeight: "50px"}} onClick={ ()=> handleClick() } > </div>
+                            <Skills color={siteInfo.work?.color}  handleClick={handleClick}/>
+                            <div style={{width: " 100%", minHeight: "50px"}} onClick={ ()=> handleClick() } > </div>
                         </div> 
                         <div className="col-md-1 col-sm-12" onClick={ ()=> handleClick() }   >
 
