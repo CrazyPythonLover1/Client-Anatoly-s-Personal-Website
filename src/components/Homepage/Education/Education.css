@@ -18,6 +18,7 @@
 #education ul li{
     margin: 0 10px;
     padding: 0 8px;
+    cursor: pointer;
 }
 
 #education .mba {

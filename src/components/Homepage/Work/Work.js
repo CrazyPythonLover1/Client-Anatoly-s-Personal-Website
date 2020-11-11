@@ -6,8 +6,9 @@ const Work = ({work}) => {
     return (
         <div id="work" style={{backgroundColor:work?.bgColor}}>
             <div className="button-group">
-                <button> <span>  RESUME </span>  </button>
-                <button> <span> LETTER </span>  </button>
+                <button className="resume" > <span>  RESUME </span>  </button>
+                <button className="letter"> <span> LETTER </span>  </button>
+                <span className="or"> or </span>
             </div>
             <div className="info">
                 <span className="company"> <span> $ </span> {work?.company} </span>

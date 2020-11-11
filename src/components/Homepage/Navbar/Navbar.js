@@ -8,10 +8,8 @@ const Navbar = ({color, fontColor}) => {
     const [active, setActive] = useState(false)
     return (
         <div id="navbar">
-            <nav className="navbar navbar-expand-sm navbar-light px-5">
-                
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ml-auto">
+            <nav className="navbar navbar-expand navbar-light px-5">
+                    <ul className="navbar-nav ml-auto ">
                         <li className="nav-item">
                             <a className="nav-link " href="https://wa.me/+16463732266">
                                 <span style={{color:color}}> US </span>  <FontAwesomeIcon style={{color:fontColor}} icon={faWhatsapp} />
@@ -58,7 +56,6 @@ const Navbar = ({color, fontColor}) => {
                             
                         </div>
                     </ul>
-                </div>
             </nav>
         </div>
     );

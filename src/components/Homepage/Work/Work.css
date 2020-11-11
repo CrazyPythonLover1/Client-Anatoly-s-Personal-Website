@@ -36,7 +36,7 @@
     }
 }
 
-.button-group{
+#work .button-group{
     display: flex;
     justify-content: space-between;
 }
@@ -50,6 +50,10 @@
     background-color: inherit;
     outline: none;
     transition: all .35s;
+}
+
+.button-group .or{
+    display: none;
 }
 
 .button-group button span{

@@ -4,4 +4,64 @@
     padding: 0;
     margin: 0 !important;
   }
+  li.nav-item .nav-link span{
+    padding-right: 4px ;
+    font-size: 12px;
+  }
+
+  .nav-link .svg-inline--fa{
+    font-size: 12px;
+  }
+
+  li.nav-item {
+      padding: 0 !important;
+      margin: 0 !important;
+  }
+  #work .button-group{
+    justify-content: center !important;
+    position: relative;
+  }
+
+  #work .button-group button{
+    border: 1px solid #ddd;
+    background-color: white;
+    color: #444;
+    font-size: 12px;
+    letter-spacing:1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  #work .button-group .resume{
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+  }
+  #work .button-group .letter{
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+  }
+
+  .button-group button:before{
+    height: 0!important;
+}
+
+.button-group button:hover{
+  background-color: orange !important;
+}
+
+.button-group .or{
+  position: absolute;
+  display: block !important;
+  background-color: #fff;
+  width: 26px;
+  height: 26px;
+  font-style: italic;
+  text-align: center;
+  color: #666;
+  border: 1px  solid #ddd;
+  border-radius: 100%;
+  top: 50%;
+  margin-top: -13px;
+  margin-right: -7px;
+}
 }
