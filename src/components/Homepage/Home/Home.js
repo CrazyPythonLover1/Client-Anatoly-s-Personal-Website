@@ -24,7 +24,7 @@ const Home = () => {
         setSiteInfo({count:siteInfo.count+1, work:works[siteInfo.count]})
     }
     return (
-        <div id="home" style={{background:siteInfo.work?.bgColor, paddingBottom:"100px"}}>
+        <div id="home" style={{background:siteInfo.work?.bgColor,  minHeight:"100vh"}}>
             
                 <Navbar color={siteInfo.work?.color} />
                 <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
@@ -35,6 +35,7 @@ const Home = () => {
                         </div>
                         <div className="col-md-8 col-sm-12">
                             <Work work={siteInfo.work}/>
+                            <div style={{width: " 100%", minHeight: "80px"}} onClick={ ()=> handleClick() } > </div>
                         </div>
                         <div className="col-md-2 col-sm-12" onClick={ ()=> handleClick() }   >
 
@@ -46,14 +47,14 @@ const Home = () => {
 
                         </div>
                         <div className="col-md-10 col-sm-12">
-                            <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} />
-                        </div>
+                            <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
+                            <div style={{paddingBottom:"100px", width: " 100%", minHeight: "100px", maxHeight: "100%"}} onClick={ ()=> handleClick() } > </div>
+                        </div> 
                         <div className="col-md-1 col-sm-12" onClick={ ()=> handleClick() }   >
 
                         </div>
                     </div>
                 </div>
-           
         </div>
     );
 };
