@@ -50,6 +50,7 @@
     background-color: inherit;
     outline: none;
     transition: all .35s;
+    cursor: pointer;
 }
 
 .button-group .or{
@@ -92,6 +93,15 @@
     width: 100%;
 }
 
+
+audio  input[pseudo="-webkit-media-controls-play-button"] {
+    width: 5rem !important;
+    background-color: red !important;
+}
+
+.react-audio-player {
+}
+
 .btn-play-pause{
     position: absolute;
     top: 50%;
@@ -102,6 +112,7 @@
 #work .btn-play-pause .svg-inline--fa{
     font-size: 3rem;
     opacity: .7;
+    cursor: pointer;
 }
 
 

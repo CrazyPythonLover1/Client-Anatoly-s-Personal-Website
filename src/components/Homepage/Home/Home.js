@@ -35,7 +35,7 @@ const Home = () => {
 
                         </div>
                         <div className="col-md-8 col-sm-10 col-xs-12">
-                            <Work work={siteInfo.work}/>
+                            <Work key={siteInfo.count} work={siteInfo.work}/>
                             <div style={{width: " 100%", minHeight: "80px"}} onClick={ ()=> handleClick() } > </div>
                         </div>
                         <div className="col-md-2 col-sm-1 col-xs-12" onClick={ ()=> handleClick() }   >
