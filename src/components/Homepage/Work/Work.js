@@ -1,5 +1,7 @@
 import React from 'react';
 import './Work.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const Work = ({work}) => {
     console.log(work)
@@ -11,6 +13,7 @@ const Work = ({work}) => {
                 <span className="or"> or </span>
             </div>
             <div className="info">
+                <div className="btn-play-pause"> <FontAwesomeIcon icon={faPlay} /> </div>
                 <span className="company"> <span> $ </span> {work?.company} </span>
                 <span className="position"> <span> $ </span> {work?.position} </span>
                 {work?.startDate && <span className="date"> <span> $ </span> {work?.startDate} </span>}
