@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faPhone, faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = ({color, fontColor}) => {
     const [active, setActive] = useState(false)
@@ -38,18 +38,20 @@ const Navbar = ({color, fontColor}) => {
                         <div className="navbar-wraper" onClick={() => setActive(!active)}>
                             { !active ?<li className="nav-item">
                                 <div className="nav-link"  href="">  
-                                    <FontAwesomeIcon style={{color:fontColor}} icon={faBars} /> 
+                                    <FontAwesomeIcon style={{color:fontColor, cursor: "pointer"}} icon={faBars} /> 
                                 </div>
                             </li>
                             :<div>
                             <li className="nav-item">
-                                <div className="nav-link"  href="">  
-                                <strong style={{color:fontColor}}> X </strong>
+                                <div className="nav-link"  href="">
+                                <FontAwesomeIcon style={{color:fontColor, cursor: "pointer"}} icon={faTimes} /> 
                                 </div>
                             </li>
                                 <li className="nav-item">
                                     <a className="nav-link" onClick="revert()" href="">  
                                         <FontAwesomeIcon style={{color:fontColor}} icon={faGithub} /> 
+                                        <FontAwesomeIcon style={{color:fontColor}} icnon={faGithub}/> 
+                                        <h1> </h1>
                                     </a>
                                 </li>
                             </div>}
