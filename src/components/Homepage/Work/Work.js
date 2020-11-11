@@ -7,16 +7,17 @@ import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 const Work = ({work}) => {
     const [audio, setAudio] = useState();
     const [active, setActive] = useState(false);
+    const [playing, setPlaying] = useState(false);
     if(work?.id){
         const audioData = require(`../../../data/audio/audio${work.id}.mp3`)
         var audioPath = audioData["default"];
     }
 
     useEffect(()=>{ setAudio(new Audio( audioPath))},[work?.id])
-
     const handlePlayMusic = () => {
         audio.play();
         setActive(!active);
+        audio.addEventListener('ended', () => setActive(false));
     }
 
     const handlePauseMusic = () => {
@@ -28,8 +29,8 @@ const Work = ({work}) => {
     return (
         <div id="work" style={{backgroundColor:work?.bgColor}}>
             <div className="button-group">
-                <button className="resume" > <span> <a> RESUME </a>   </span>  </button>
-                <button className="letter"> <span> <a>   LETTER  </a> </span>  </button>
+            <a href="../../../data/Resume/IL.docx" download> <button className="resume" > <span> RESUME   </span>  </button> </a> 
+            <a href="../../../data/Resume/US.docx" download> <button className="letter"> <span>   LETTER   </span>  </button> </a>
                 <span className="or"> or </span>
             </div>
             <div className="info">
