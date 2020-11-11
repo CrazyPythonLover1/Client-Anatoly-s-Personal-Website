@@ -1,18 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import './Work.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 
 
 const Work = ({work}) => {
     const [audio, setAudio] = useState();
-
+    const [active, setActive] = useState(false);
     if(work?.id){
         const audioData = require(`../../../data/audio/audio${work.id}.mp3`)
         var audioPath = audioData["default"];
     }
 
     useEffect(()=>{ setAudio(new Audio( audioPath))},[work?.id])
+
+    const handlePlayMusic = () => {
+        audio.play();
+        setActive(!active);
+    }
+
+    const handlePauseMusic = () => {
+        audio.pause();
+        setActive(!active);
+    }
+    
     
     return (
         <div id="work" style={{backgroundColor:work?.bgColor}}>
@@ -23,7 +34,8 @@ const Work = ({work}) => {
             </div>
             <div className="info">
                 <div className="btn-play-pause"> 
-                    <FontAwesomeIcon onClick={()=>audio.play()}  icon={faPlay} /> 
+                    {!active?<FontAwesomeIcon onClick={()=> handlePlayMusic()}  icon={faPlay} /> 
+                    :<FontAwesomeIcon onClick={()=>handlePauseMusic()}  icon={faPause} /> }
                 </div>
                 <span className="company"> <span> $ </span> {work?.company} </span>
                 <span className="position"> <span> $ </span> {work?.position} </span>
