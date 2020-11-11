@@ -31,29 +31,29 @@ const Home = () => {
                 <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-2 col-sm-12 " onClick={ ()=> handleClick() }  >
+                        <div className="col-md-2 col-sm-1 col-xs-12 " onClick={ ()=> handleClick() }  >
 
                         </div>
-                        <div className="col-md-8 col-sm-12">
+                        <div className="col-md-8 col-sm-10 col-xs-12">
                             <Work work={siteInfo.work}/>
                             <div style={{width: " 100%", minHeight: "80px"}} onClick={ ()=> handleClick() } > </div>
                         </div>
-                        <div className="col-md-2 col-sm-12" onClick={ ()=> handleClick() }   >
+                        <div className="col-md-2 col-sm-1 col-xs-12" onClick={ ()=> handleClick() }   >
 
                         </div>
                     </div>
 
                     <div className="row">
-                        <div className="col-md-1 col-sm-12 " onClick={ ()=> handleClick() }  >
+                        <div className="col-md-1 col-sm-1 " onClick={ ()=> handleClick() }  >
 
                         </div>
-                        <div className="col-md-10 col-sm-12">
+                        <div className="col-md-10 col-sm-10">
                             <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
                             <div style={{width: " 100%", minHeight: "50px"}} onClick={ ()=> handleClick() } > </div>
                             <Skills color={siteInfo.work?.color}  handleClick={handleClick}/>
                             <div style={{width: " 100%", minHeight: "50px"}} onClick={ ()=> handleClick() } > </div>
                         </div> 
-                        <div className="col-md-1 col-sm-12" onClick={ ()=> handleClick() }   >
+                        <div className="col-md-1 col-sm-1" onClick={ ()=> handleClick() }   >
 
                         </div>
                     </div>

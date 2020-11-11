@@ -45,23 +45,22 @@
     height: 0!important;
 }
 
-.button-group button:hover{
-  background-color: orange !important;
+  .button-group button:hover{
+    background-color: orange !important;
+  }
+
+  .button-group .or{
+    display: block !important;
+  }
+  #education ul{
+    justify-content: flex-start !important;
+    padding-left: 0;
+  }
+  #education li{
+    margin-left: 0!important;
+  }
 }
 
-.button-group .or{
-  position: absolute;
-  display: block !important;
-  background-color: #fff;
-  width: 26px;
-  height: 26px;
-  font-style: italic;
-  text-align: center;
-  color: #666;
-  border: 1px  solid #ddd;
-  border-radius: 100%;
-  top: 50%;
-  margin-top: -13px;
-  margin-right: -7px;
-}
+@media only screen and(max-width: 767px){
+  
 }
