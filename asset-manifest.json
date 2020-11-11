@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/Client-Anatoly-s-Personal-Website/static/css/main.e8a117da.chunk.css",
-    "main.js": "/Client-Anatoly-s-Personal-Website/static/js/main.90a18c2e.chunk.js",
-    "main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/main.90a18c2e.chunk.js.map",
-    "runtime-main.js": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.0dbb32c3.js",
-    "runtime-main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.0dbb32c3.js.map",
-    "static/js/2.2549457a.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/2.2549457a.chunk.js",
-    "static/js/2.2549457a.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/2.2549457a.chunk.js.map",
-    "static/js/3.73393848.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/3.73393848.chunk.js",
-    "static/js/3.73393848.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/3.73393848.chunk.js.map",
+    "main.css": "/Client-Anatoly-s-Personal-Website/static/css/main.894d0e1e.chunk.css",
+    "main.js": "/Client-Anatoly-s-Personal-Website/static/js/main.84a7d004.chunk.js",
+    "main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/main.84a7d004.chunk.js.map",
+    "runtime-main.js": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.a6a51fe6.js",
+    "runtime-main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.a6a51fe6.js.map",
+    "static/js/2.dcb56ff2.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/2.dcb56ff2.chunk.js",
+    "static/js/2.dcb56ff2.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/2.dcb56ff2.chunk.js.map",
+    "static/js/3.ecc136ad.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/3.ecc136ad.chunk.js",
+    "static/js/3.ecc136ad.chunk.js.map": "/Client-Anatoly-s-Personal-Website/static/js/3.ecc136ad.chunk.js.map",
     "index.html": "/Client-Anatoly-s-Personal-Website/index.html",
-    "static/css/main.e8a117da.chunk.css.map": "/Client-Anatoly-s-Personal-Website/static/css/main.e8a117da.chunk.css.map",
-    "static/js/2.2549457a.chunk.js.LICENSE.txt": "/Client-Anatoly-s-Personal-Website/static/js/2.2549457a.chunk.js.LICENSE.txt",
-    "static/media/audio3.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio3.851025ba.mp3"
+    "static/css/main.894d0e1e.chunk.css.map": "/Client-Anatoly-s-Personal-Website/static/css/main.894d0e1e.chunk.css.map",
+    "static/js/2.dcb56ff2.chunk.js.LICENSE.txt": "/Client-Anatoly-s-Personal-Website/static/js/2.dcb56ff2.chunk.js.LICENSE.txt",
+    "static/media/audio1.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio1.db994d6f.mp3",
+    "static/media/audio2.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio2.409c464c.mp3",
+    "static/media/audio3.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio3.851025ba.mp3",
+    "static/media/audio4.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio4.8c9174c8.mp3",
+    "static/media/audio5.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio5.012bf504.mp3",
+    "static/media/audio6.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio6.dd2b776a.mp3",
+    "static/media/audio7.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio7.23a32e9b.mp3",
+    "static/media/audio8.mp3": "/Client-Anatoly-s-Personal-Website/static/media/audio8.fa02a8a6.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.0dbb32c3.js",
-    "static/js/2.2549457a.chunk.js",
-    "static/css/main.e8a117da.chunk.css",
-    "static/js/main.90a18c2e.chunk.js"
+    "static/js/runtime-main.a6a51fe6.js",
+    "static/js/2.dcb56ff2.chunk.js",
+    "static/css/main.894d0e1e.chunk.css",
+    "static/js/main.84a7d004.chunk.js"
   ]
 }
