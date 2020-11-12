@@ -6,6 +6,7 @@ import resumeData from '../../../data/data.json';
 import Work from '../Work/Work';
 import Education from '../Education/Education';
 import Skills from '../Skills/Skills';
+import Popup from '../Popup/Popup';
 
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
         <div id="home" style={{ background: siteInfo.bgColor, minHeight: "100vh" }}>
 
             <Navbar color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} />
+            <Popup/>
             <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} bgColor={siteInfo.work?.bgColor} />
             <div className="container-fluid">
                 <div className="row">
