@@ -30,7 +30,9 @@
   }
 
   #work{
-    margin: 0 2.5rem !important;
+    margin-left:2.5rem !important;
+    margin-right:2.5rem !important;
+    margin-top: -180px !important;
   }
 
 

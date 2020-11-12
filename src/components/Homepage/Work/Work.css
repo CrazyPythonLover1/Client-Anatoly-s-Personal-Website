@@ -11,6 +11,7 @@
     opacity: 0;
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
+    margin-top: -180px;
 }
 
 

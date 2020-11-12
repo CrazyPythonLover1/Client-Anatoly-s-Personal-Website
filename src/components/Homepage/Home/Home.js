@@ -10,7 +10,7 @@ import Skills from '../Skills/Skills';
 
 const Home = () => {
     const [siteInfo, setSiteInfo] = useState({
-        color: "white",
+        bgColor: "white",
         count: 1,
     });
     const works = [];
@@ -24,14 +24,14 @@ const Home = () => {
         setSiteInfo({ ...siteInfo, count: 0 })
     }
     const handleClick = () => {
-        setSiteInfo({ color: works[siteInfo.count].bgColor, count: siteInfo.count + 1, work: works[siteInfo.count] })
+        setSiteInfo({ bgColor: works[siteInfo.count].bgColor, count: siteInfo.count + 1, work: works[siteInfo.count] })
         console.log("clicked")
     }
     return (
-        <div id="home" style={{ background: siteInfo.color, minHeight: "100vh" }}>
+        <div id="home" style={{ background: siteInfo.bgColor, minHeight: "100vh" }}>
 
             <Navbar color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} />
-            <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
+            <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} bgColor={siteInfo.work?.bgColor} />
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-2 col-sm-1 col-xs-1 " onClick={() => handleClick()}  >

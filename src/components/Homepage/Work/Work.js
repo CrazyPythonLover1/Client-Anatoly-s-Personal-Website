@@ -26,9 +26,9 @@ const Work = ({ work, handleClick }) => {
     const [backgroundColor, setBackgroundColor] = useState("#232323");
     useEffect(() => {
         if (work?.bgColor) {
-            setBackgroundColor(work?.bgColor)
+            // setBackgroundColor(work?.bgColor)
         }
-    }, [])
+    }, [work?.bgcolor])
 
     return (
         <div style={{ position: "relative" }}>
