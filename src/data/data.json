@@ -57,7 +57,8 @@
           "Oversaw teams of consultants supporting cloud and workstation infrastructure"
         ],
         "bgColor":"#ddd",
-        "color": "black"
+        "color": "black",
+        "workColor":"#232323"
         
       },
       { "id": 2,

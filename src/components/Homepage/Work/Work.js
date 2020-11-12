@@ -7,7 +7,6 @@ import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 const Work = ({work}) => {
     const [audio, setAudio] = useState();
     const [active, setActive] = useState(false);
-    const [playing, setPlaying] = useState(false);
     if(work?.id){
         const audioData = require(`../../../data/audio/audio${work.id}.mp3`)
         var audioPath = audioData["default"];
@@ -24,10 +23,17 @@ const Work = ({work}) => {
         audio.pause();
         setActive(!active);
     }
-    
+    const [backgroundColor, setBackgroundColor] = useState(work?.workColor);
+    useEffect( ()=> {
+        if(work?.workColor){
+            setBackgroundColor(work.workColor)
+        } else {
+            setBackgroundColor(work?.bgColor)
+        }
+    }, [])
     
     return (
-        <div id="work" style={{backgroundColor:work?.bgColor}}>
+        <div id="work" style={{backgroundColor:backgroundColor}}>
             <div className="button-group">
             <a href="../../../data/Resume/IL.docx" download> <button className="resume" > <span> RESUME   </span>  </button> </a> 
             <a href="../../../data/Resume/US.docx" download> <button className="letter"> <span>   LETTER   </span>  </button> </a>

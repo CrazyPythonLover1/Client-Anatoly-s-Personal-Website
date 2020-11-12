@@ -8,7 +8,7 @@ const Navbar = ({color, fontColor}) => {
     const [active, setActive] = useState(false)
     return (
         <div id="navbar">
-            <nav className="navbar navbar-expand navbar-light px-5">
+            <nav className="navbar navbar-expand px-5">
                     <ul className="navbar-nav ml-auto ">
                         <li className="nav-item">
                             <a className="nav-link " href="https://wa.me/+16463732266">

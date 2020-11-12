@@ -1,11 +1,16 @@
+.nav-item {
+    padding: 15px !important;
+}
+
 .nav-link{
     color: #000000 !important;
+    padding: 0 !important;
 }
 
 .nav-link span{
-    padding-right: 5px;
+    padding-right: 8px !important;
 }
 
-.nav-item {
-    padding-right: 10px !important;
+.nav-link .svg-inline--fa:hover{
+    color: #98C24D;
 }
