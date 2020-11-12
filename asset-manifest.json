@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Client-Anatoly-s-Personal-Website/static/css/main.f4cf8740.chunk.css",
-    "main.js": "/Client-Anatoly-s-Personal-Website/static/js/main.ff325f03.chunk.js",
-    "main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/main.ff325f03.chunk.js.map",
+    "main.js": "/Client-Anatoly-s-Personal-Website/static/js/main.bf00d025.chunk.js",
+    "main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/main.bf00d025.chunk.js.map",
     "runtime-main.js": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.7431fdd6.js",
     "runtime-main.js.map": "/Client-Anatoly-s-Personal-Website/static/js/runtime-main.7431fdd6.js.map",
     "static/js/2.60357427.chunk.js": "/Client-Anatoly-s-Personal-Website/static/js/2.60357427.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.7431fdd6.js",
     "static/js/2.60357427.chunk.js",
     "static/css/main.f4cf8740.chunk.css",
-    "static/js/main.ff325f03.chunk.js"
+    "static/js/main.bf00d025.chunk.js"
   ]
 }
