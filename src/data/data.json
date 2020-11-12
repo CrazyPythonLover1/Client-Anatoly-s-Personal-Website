@@ -56,9 +56,8 @@
           "Increased number of data sources, improved processing speed and data availability",
           "Oversaw teams of consultants supporting cloud and workstation infrastructure"
         ],
-        "bgColor":"#ddd",
-        "color": "black",
-        "workColor":"#232323"
+        "bgColor":"#f8f8fa",
+        "color": "black"
         
       },
       { "id": 2,
