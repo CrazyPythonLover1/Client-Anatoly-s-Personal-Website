@@ -25,7 +25,7 @@ const Home = () => {
     }
     const handleClick = () => {
         setSiteInfo({ bgColor: works[siteInfo.count].bgColor, count: siteInfo.count + 1, work: works[siteInfo.count] })
-        console.log("clicked")
+        
     }
     return (
         <div id="home" style={{ background: siteInfo.bgColor, minHeight: "100vh" }}>

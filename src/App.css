@@ -14,6 +14,7 @@
 @media only screen and (max-width: 576px) {
   .navbar{
     padding: 0 15px 0 0  !important;
+    margin-top: 7px;
   }
   li.nav-item .nav-link span{
     padding-right: 4px ;
@@ -89,6 +90,16 @@
   }
 }
 
-@media only screen and(max-width: 767px){
-  
+@media only screen and (max-width: 371px){
+  .navbar{
+    padding: 0 10px 0 0  !important;
+  }
+  .nav-item {
+    padding-right: 5px !important ;
+}
+}
+@media only screen and (max-width: 311px){
+  .nav-item {
+    padding: 15px 6px !important ;
+}
 }

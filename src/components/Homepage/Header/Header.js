@@ -11,10 +11,10 @@ const Header = ({color,fontColor, handleClick, bgColor}) => {
         }
     }, [bgColor])
     return (
-        <div id="header" style={{backgroundColor:backgroundColor}} onClick={ ()=> handleClick() }>
+        <div id="header" style={{backgroundColor:backgroundColor}} onClick={ ()=>{handleClick()} }>
             <div className="">
                 <div className="text-center pb-5" >
-                    <h1 className="pt-4 pb-3" style={{color:fontColor, fontWeight:"900", fontSize:" 2em"}} >
+                    <h1 className="pt-4 pb-3 header-title" style={{color:fontColor, fontWeight:"900", fontSize:" 2em"}} >
                         {resumeData.basics.name}
                     </h1>
                     <div style={{color:color, fontFamily:"'Nunito Sans', sans-serif"}}>
