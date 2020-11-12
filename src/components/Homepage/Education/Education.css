@@ -4,21 +4,22 @@
 .section-title{
     font-size: 1.5rem;
     font-weight: bold;
+    color: #432e30;
 }
 
 #education ul{
     display: flex;
     list-style: none;
     justify-content: flex-end;
-    margin-right: 20px;
-    padding-right: 20px;
-    margin-bottom: 3px;
+    padding-right: 10px;
+    margin-bottom: 4px;
 }
 
 #education ul li{
-    margin: 0 10px;
+    margin: 0 5px;
     padding: 0 8px;
     cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 #education .mba {
@@ -34,10 +35,11 @@
 }
 
 .edu-info{
-    background-color: white;
+    background-color: #f8f8fa;
     padding: 15px 30px;
     border: 1px solid #f0e8e8;
     border-radius: 3px;
+    border: 1px solid #f0e8e8;
 }
 
 .edu-info span{

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 import resumeData from '../../../data/data.json';
 import Typical from 'react-typical'
 
@@ -10,10 +11,10 @@ const Header = ({color,fontColor, handleClick}) => {
                     <h1 className="pt-4 pb-3" style={{color:fontColor, fontWeight:"900", fontSize:" 2em"}} >
                         {resumeData.basics.name}
                     </h1>
-                    <div style={{color:color}}>
+                    <div style={{color:color, fontFamily:"'Nunito Sans', sans-serif"}}>
                         <Typical
                             loop={Infinity}
-                            wrapper="b"
+                            wrapper="p"
                             steps={[resumeData.basics.label,1000]}
                         />
                     </div>

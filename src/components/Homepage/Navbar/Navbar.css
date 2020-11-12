@@ -3,12 +3,12 @@
 }
 
 .nav-link{
-    color: #000000 !important;
+    color: #432e30 !important;
     padding: 0 !important;
 }
 
 .nav-link span{
-    padding-right: 8px !important;
+    padding-right: 5px !important;
 }
 
 .nav-link .svg-inline--fa:hover{

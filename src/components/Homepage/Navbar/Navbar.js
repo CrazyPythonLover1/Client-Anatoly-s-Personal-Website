@@ -46,12 +46,11 @@ const Navbar = ({color, fontColor}) => {
                                 <div className="nav-link"  href="">
                                 <FontAwesomeIcon style={{color:fontColor, cursor: "pointer"}} icon={faTimes} /> 
                                 </div>
+                                
                             </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" onClick="revert()" href="">  
-                                        <FontAwesomeIcon style={{color:fontColor}} icon={faGithub} /> 
-                                        <FontAwesomeIcon style={{color:fontColor}} icnon={faGithub}/> 
-                                        <h1> </h1>
+                                <li className="nav-item"  style={{display: "inline-block"}}>
+                                    <a className="nav-link" href="">  
+                                        <FontAwesomeIcon style={{color:fontColor,fontSize:"20px"}} icon={faGithub} /> 
                                     </a>
                                 </li>
                             </div>}
