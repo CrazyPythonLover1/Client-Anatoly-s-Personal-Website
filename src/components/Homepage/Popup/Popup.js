@@ -1,8 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Popup.css";
 
 const Popup = () => {
-    const [ close, setClose] = useState("block")
+    const [ close, setClose] = useState("none")
+    useEffect(()=>{
+        const timer = setTimeout(()=>{
+            setClose("block")
+        }, 4000);
+        return () => clearTimeout(timer);
+        },[])
   return (
     <div id="popup" style={{ display: close }}>
       <div id="popup-article" class="popup buttonX">

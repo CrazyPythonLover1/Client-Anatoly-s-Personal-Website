@@ -114,8 +114,8 @@ audio  input[pseudo="-webkit-media-controls-play-button"] {
 }
 
 #work .btn-play-pause .svg-inline--fa{
-    font-size: 3rem;
-    opacity: .7;
+    font-size: 3.35rem;
+    opacity: .8;
     cursor: pointer;
 }
 
@@ -124,15 +124,17 @@ audio  input[pseudo="-webkit-media-controls-play-button"] {
     margin-bottom: 0 !important;
 }
 
-#work .info span span, .position, .date{
+#work .info span span{
     color: #a5c261;
 }
 
-#work > .info > span{
+#work > .info > .work-info-text > span{
     display:block;
     font-size: 13px;
     font-family: monospace;
+    line-height: 1.2;
     color: #e6e1dc;
+    font-weight: 300;
 }
 
 #work > .info{

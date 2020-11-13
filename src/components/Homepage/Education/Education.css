@@ -46,4 +46,7 @@
     color: #8e7474;
     font-size: 13px;
     font-family: monospace;
+    line-height: 1.2;
+    white-space: normal;
+    font-weight: 300;
 }

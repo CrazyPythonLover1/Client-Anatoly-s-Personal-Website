@@ -38,13 +38,13 @@ const Navbar = ({color, fontColor}) => {
                         <div className="navbar-wraper" onClick={() => setActive(!active)}>
                             { !active ?<li className="nav-item">
                                 <div className="nav-link"  href="">  
-                                    <FontAwesomeIcon style={{color:fontColor, cursor: "pointer"}} icon={faBars} /> 
+                                    <FontAwesomeIcon style={{color:fontColor,fontSize:"20px", cursor: "pointer"}} icon={faBars} /> 
                                 </div>
                             </li>
                             :<div>
                             <li className="nav-item">
                                 <div className="nav-link"  href="">
-                                <FontAwesomeIcon style={{color:fontColor, cursor: "pointer"}} icon={faTimes} /> 
+                                <FontAwesomeIcon style={{color:fontColor,fontSize:"20px", cursor: "pointer"}} icon={faTimes} /> 
                                 </div>
                                 
                             </li>

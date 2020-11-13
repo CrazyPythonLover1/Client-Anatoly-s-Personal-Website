@@ -22,7 +22,7 @@
     top: 50%;
     will-change: height, top;
     animation: open-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) .65s both;
-    animation-delay: 5s;
+    
 }
 
 .popup::after {
@@ -32,7 +32,6 @@
     background-color: #f0f0f0;
     will-change: width, opacity;
     animation: line-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) both;
-    animation-delay: 4.5s;
     position: absolute;
     top: 50%;
     left: 0;
@@ -73,13 +72,14 @@
     margin: auto;
     overflow: auto;
     animation: fade .5s ease-out 1.3s both;
-    animation-delay: 6s;
+    
 }
 
 .popup__block p {
     font-size: 18px;
     color: #4a4a4a;
     line-height: 1.25;
+    font-weight: 300;
 }
 
 @keyframes fade {

@@ -46,14 +46,15 @@ const Work = ({ work, handleClick }) => {
                         {!active ? <FontAwesomeIcon onClick={() => handlePlayMusic()} icon={faPlay} />
                             : <FontAwesomeIcon onClick={() => handlePauseMusic()} icon={faPause} />}
                     </div>
-                    <span className="company"> <span> $ </span> {work?.company} </span>
-                    <span className="position"> <span> $ </span> {work?.position} </span>
-                    {work?.startDate && <span className="date"> <span> $ </span> {work?.startDate} </span>}
-                    {work?.endDate && <span className="date"> <span> $ </span> {work?.endDate} </span>}
-                    {work?.summary && <span className="summary"> <span> $ </span> {work?.summary} </span>}
-                    {work?.highlights && <span className="mt-3">   Highlights </span>}
-                    {work?.highlights && work?.highlights.map(item => <span> {`->`} {item} </span>)}
-
+                    <div className="work-info-text" onClick={() => handleClick()}>
+                        <span className="company"> <span> $ </span> {work?.company} </span>
+                        <span className="position" style={{color: "#a5c261"}}> <span> $ </span> {work?.position} </span>
+                        {work?.startDate && <span className="date" style={{color: "#a5c261"}}> <span> $ </span> {work?.startDate} </span>}
+                        {work?.endDate && <span className="date" style={{color: "#a5c261"}}> <span> $ </span> {work?.endDate} </span>}
+                        {work?.summary && <span className="summary"> <span> $ </span> {work?.summary} </span>}
+                        {work?.highlights && <span className="mt-3">   Highlights </span>}
+                        {work?.highlights && work?.highlights.map(item => <span> {`->`} {item} </span>)}
+                    </div>
                 </div>
             </div>
 
