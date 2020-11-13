@@ -1,3 +1,8 @@
+.App{
+  width: 100% !important;
+  overflow:hidden !important;
+}
+
 .spacer{
   top: 0;
   position: absolute;
@@ -12,20 +17,23 @@
 
 
 @media only screen and (max-width: 576px) {
-  .navbar{
-    padding: 0 15px 0 0  !important;
-    margin-top: 7px;
-  }
+  
+  .nav-container{
+    justify-content: space-between !important;
+    margin: 0 1%;
+}
   li.nav-item .nav-link span{
-    padding-right: 4px ;
+    /* padding-right: 4px ; */
     /* font-size: 12px; */
   }
+  
 
   .nav-link .svg-inline--fa{
     /* font-size: 12px; */
   }
 
   li.nav-item {
+    padding-right: .5rem;
       /* padding: 0 !important;
       margin: 0 !important; */
   }
@@ -90,13 +98,12 @@
   }
 }
 
-@media only screen and (max-width: 371px){
-  .navbar{
-    padding: 0 10px 0 0  !important;
+@media only screen and (max-width: 335px){
+  
+  li.nav-item {
+    padding-right: .6rem;
+    padding-left: .4rem;
   }
-  .nav-item {
-    padding-right: 12px !important ;
-}
 }
 @media only screen and (max-width: 311px){
   .nav-item {
