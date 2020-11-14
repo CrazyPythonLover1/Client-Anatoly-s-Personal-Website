@@ -54,13 +54,13 @@ const Home = () => {
 
                     </div>
 
-                    <div className=" col-md-10 col-sm-9 p-0 mx-auto" style={{ position: "relative"}}>
+                    <div className=" col-md-10 col-sm-10 p-0 m-0" style={{ position: "relative"}}>
                         <div className="col-sm-1 spacer"  onClick={() => handleClick()} >  </div>
                         <div className="col-sm-1 spacer spacer-bottom"  onClick={() => handleClick()} >  </div>
                         <div className="p-0 mx-auto">
                             <div className="row  mx-auto" >
 
-                                <div className="col-md-11 mx-auto" >
+                                <div className="col-md-11 mx-auto p-0" >
                                     <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
                                     <div style={{ width: " 100%", minHeight: "50px" }} onClick={() => handleClick()} > </div>
                                     <Skills color={siteInfo.work?.color} handleClick={handleClick} />
