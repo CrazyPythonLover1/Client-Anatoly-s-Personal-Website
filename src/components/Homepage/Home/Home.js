@@ -29,7 +29,7 @@ const Home = () => {
         
     }
     return (
-        <div id="home" style={{ background: siteInfo.bgColor, minHeight: "100vh" }}>
+        <div id="home" style={{ background: siteInfo.bgColor, minHeight: "100vh" }} onClick={() => handleClick()}>
 
             <Navbar color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} />
             <Popup/>
@@ -50,29 +50,18 @@ const Home = () => {
                 </div>
 
                 <div className="row">
-                    <div className=" col-md-1 col-sm-1 px-3 " onClick={() => handleClick()}  >
+                    <div className="col-lg-1 col-md-1 col-sm-1 px-3 " onClick={() => handleClick()}  >
 
                     </div>
 
-                    <div className=" col-md-10 col-sm-10 p-0 m-0" style={{ position: "relative"}}>
-                        <div className="col-sm-1 spacer"  onClick={() => handleClick()} >  </div>
-                        <div className="col-sm-1 spacer spacer-bottom"  onClick={() => handleClick()} >  </div>
-                        <div className="p-0 mx-auto">
-                            <div className="row  mx-auto" >
-
-                                <div className="col-md-11 mx-auto p-0" >
-                                    <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
-                                    <div style={{ width: " 100%", minHeight: "50px" }} onClick={() => handleClick()} > </div>
-                                    <Skills color={siteInfo.work?.color} handleClick={handleClick} />
-                                    <div style={{ width: " 100%", minHeight: "130px" }} onClick={() => handleClick()} > </div>
-                                </div>
-                            </div>
-                        </div>
-
-
+                    <div className=" col-lg-9 col-md-9 col-sm-10 p-0 mx-auto" style={{ position: "relative"}}>
+                        <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
+                        <div style={{ width: " 100%", minHeight: "50px" }} onClick={() => handleClick()} > </div>
+                        <Skills color={siteInfo.work?.color} handleClick={handleClick} />
+                        <div style={{ width: " 100%", minHeight: "130px" }} onClick={() => handleClick()} > </div>
                     </div>
 
-                    <div className=" col-md-1 col-sm-1 px-3" onClick={() => handleClick()}   >
+                    <div className="  col-md-1 col-sm-1 px-3" onClick={() => handleClick()}   >
 
                     </div>
                 </div>

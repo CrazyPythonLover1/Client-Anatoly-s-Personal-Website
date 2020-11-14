@@ -10,7 +10,7 @@ const Popup = () => {
         return () => clearTimeout(timer);
         },[])
   return (
-    <div id="popup" style={{ display: close }}>
+    <div id="popup" style={{ display: close }} onClick={(e) => e.stopPropagation() }>
       <div id="popup-article" class="popup buttonX">
         <div class="popup__block buttonX">
           <h1 class="popup__title buttonX">My skills </h1>{" "}

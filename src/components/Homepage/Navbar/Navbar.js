@@ -9,7 +9,7 @@ const Navbar = ({color, fontColor}) => {
     return (
         <div id="navbar">
             <nav className="">
-                    <ul className="nav-container ">
+                    <ul className="nav-container " onClick={(e) => e.stopPropagation() }>
                         <li className="nav-item">
                             <a className="nav-link " href="https://wa.me/+16463732266">
                                 <span style={{color:color}}> US </span>  <FontAwesomeIcon style={{color:fontColor}} icon={faWhatsapp} />

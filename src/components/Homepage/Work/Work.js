@@ -31,18 +31,15 @@ const Work = ({ work, handleClick }) => {
     }, [work?.bgcolor])
 
     return (
-        <div style={{ position: "relative" }}>
-            <div className="col-sm-1 spacer" onClick={() => handleClick()} >  </div>
-            <div className="col-sm-1 spacer spacer-bottom" onClick={() => handleClick()} >  </div>
+        <div style={{ position: "relative" }} >
             <div id="work" style={{ backgroundColor: backgroundColor }}  >
-
-                <div className="button-group" >
-                    <a href="../../../data/Resume/IL.docx" download> <button className="resume" > <span> RESUME   </span>  </button> </a>
-                    <a href="../../../data/Resume/US.docx" download> <button className="letter"> <span>   LETTER   </span>  </button> </a>
+                <div className="button-group" onClick={() => handleClick()} >
+                    <a href="../../../data/Resume/IL.docx" download > <button className="resume" onClick={(e) => e.stopPropagation() }> <span> RESUME   </span>  </button> </a>
+                    <a href="../../../data/Resume/US.docx" download> <button className="letter" onClick={(e) => e.stopPropagation() }> <span>   LETTER   </span>  </button> </a>
                     <span className="or"> or </span>
                 </div>
                 <div className="info">
-                    <div className="btn-play-pause">
+                    <div className="btn-play-pause" onClick={(e) => e.stopPropagation() } >
                         {!active ? <FontAwesomeIcon onClick={() => handlePlayMusic()} icon={faPlay} />
                             : <FontAwesomeIcon onClick={() => handlePauseMusic()} icon={faPause} />}
                     </div>

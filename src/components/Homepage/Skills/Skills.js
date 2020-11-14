@@ -5,7 +5,7 @@ import resumeData from '../../../data/data.json';
 const Skills = ({color, handleClick}) => {
     const skills = resumeData.skills;
     return (
-        <div id="skills"  onClick={ ()=> handleClick() } >
+        <div id="skills" >
             
             <h1 className="section-title" style={{color:color}} > Skills </h1>
             {
