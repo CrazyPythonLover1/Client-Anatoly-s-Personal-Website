@@ -3,18 +3,6 @@
   overflow:hidden !important;
 }
 
-.spacer{
-  top: 0;
-  position: absolute;
-  height: 100%;
-  width: 13%;
-  z-index: 1;
-}
-.spacer-bottom{
-  top: 0;
-  right: 0;
-}
-
 
 @media only screen and (max-width: 576px) {
   
