@@ -106,7 +106,7 @@ audio  input[pseudo="-webkit-media-controls-play-button"] {
 }
 
 
-.btn-play-pause{
+#work .btn-play-pause{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -117,6 +117,10 @@ audio  input[pseudo="-webkit-media-controls-play-button"] {
     font-size: 3.35rem;
     opacity: .8;
     cursor: pointer;
+}
+
+#work .btn-play-pause .svg-inline--fa:hover{
+    color: #999999;
 }
 
 

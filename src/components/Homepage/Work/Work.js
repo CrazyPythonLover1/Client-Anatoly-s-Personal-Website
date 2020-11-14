@@ -34,9 +34,9 @@ const Work = ({ work, handleClick }) => {
         <div style={{ position: "relative" }}>
             <div className="col-sm-1 spacer" onClick={() => handleClick()} >  </div>
             <div className="col-sm-1 spacer spacer-bottom" onClick={() => handleClick()} >  </div>
-            <div id="work" style={{ backgroundColor: backgroundColor }}>
+            <div id="work" style={{ backgroundColor: backgroundColor }}  onClick={() => handleClick()}>
 
-                <div className="button-group">
+                <div className="button-group" >
                     <a href="../../../data/Resume/IL.docx" download> <button className="resume" > <span> RESUME   </span>  </button> </a>
                     <a href="../../../data/Resume/US.docx" download> <button className="letter"> <span>   LETTER   </span>  </button> </a>
                     <span className="or"> or </span>
