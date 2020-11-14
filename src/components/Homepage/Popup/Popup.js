@@ -6,7 +6,7 @@ const Popup = () => {
     useEffect(()=>{
         const timer = setTimeout(()=>{
             setClose("block")
-        }, 4000);
+        }, 6000);
         return () => clearTimeout(timer);
         },[])
   return (

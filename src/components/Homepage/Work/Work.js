@@ -43,7 +43,7 @@ const Work = ({ work, handleClick }) => {
                         {!active ? <FontAwesomeIcon onClick={() => handlePlayMusic()} icon={faPlay} />
                             : <FontAwesomeIcon onClick={() => handlePauseMusic()} icon={faPause} />}
                     </div>
-                    <div className="work-info-text" onClick={() => handleClick()}>
+                    <div className="work-info-text" >
                         <span className="company"> <span> $ </span> {work?.company} </span>
                         <span className="position" style={{color: "#a5c261"}}> <span> $ </span> {work?.position} </span>
                         {work?.startDate && <span className="date" style={{color: "#a5c261"}}> <span> $ </span> {work?.startDate} </span>}

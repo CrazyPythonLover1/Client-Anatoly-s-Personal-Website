@@ -40,6 +40,7 @@
     padding: 15px 24px;
     border: 1px solid #f0e8e8;
     border-radius: 3px;
+    font-family: Space Mono, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 }
 
 .edu-info span{
@@ -49,5 +50,5 @@
     font-family: monospace;
     line-height: 1.2;
     white-space: normal;
-    font-weight: 300;
+
 }

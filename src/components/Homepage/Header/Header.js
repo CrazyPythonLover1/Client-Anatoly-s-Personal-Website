@@ -3,7 +3,7 @@ import './Header.css';
 import resumeData from '../../../data/data.json';
 import Typical from 'react-typical'
 
-const Header = ({color,fontColor, handleClick, bgColor}) => {
+const Header = ({color,fontColor, bgColor}) => {
     const [backgroundColor, setBackgroundColor] = useState("#f8f8fa");
     useEffect(() => {
         if (bgColor) {
@@ -11,7 +11,7 @@ const Header = ({color,fontColor, handleClick, bgColor}) => {
         }
     }, [bgColor])
     return (
-        <div id="header" style={{backgroundColor:backgroundColor}} onClick={ ()=>{handleClick()} }>
+        <div id="header" style={{backgroundColor:backgroundColor}} >
             <div className="">
                 <div className="text-center pb-5" >
                     <h1 className="pt-4 pb-3 header-title" style={{color:fontColor, fontWeight:"900", fontSize:" 2em"}} >

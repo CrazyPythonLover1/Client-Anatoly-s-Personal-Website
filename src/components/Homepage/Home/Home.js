@@ -33,37 +33,30 @@ const Home = () => {
 
             <Navbar color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} />
             <Popup/>
-            <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} bgColor={siteInfo.work?.bgColor} />
+            <Header color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} bgColor={siteInfo.work?.bgColor} />
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-2 col-sm-1 col-xs-1 " onClick={() => handleClick()}  >
+                    <div className="col-md-2 col-sm-1 col-xs-1 " > </div>
 
-                    </div>
                     <div className="col-md-8 col-sm-9 col-xs-9 mx-auto work-column p-0 m-0">
-
                         <Work key={siteInfo.count} work={siteInfo.work} handleClick={handleClick} />
-                        <div style={{ width: " 100%", minHeight: "50px" }} onClick={() => handleClick()} > </div>
+                        <div style={{ width: " 100%", minHeight: "50px" }}> </div>
                     </div>
-                    <div className="col-md-2 col-sm-1 col-xs-1" onClick={() => handleClick()}   >
 
-                    </div>
+                    <div className="col-md-2 col-sm-1 col-xs-1" ></div>
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-1 col-md-1 col-sm-1 px-3 " onClick={() => handleClick()}  >
+                    <div className="col-lg-1 col-md-1 col-sm-1 px-3 "></div>
 
+                    <div className=" col-lg-9 col-md-9 col-sm-10 p-0 mx-auto">
+                        <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor}  />
+                        <div style={{ width: " 100%", minHeight: "50px" }} > </div>
+                        <Skills color={siteInfo.work?.color} />
+                        <div style={{ width: " 100%", minHeight: "130px" }} > </div>
                     </div>
 
-                    <div className=" col-lg-9 col-md-9 col-sm-10 p-0 mx-auto" style={{ position: "relative"}}>
-                        <Education education={resumeData.education} color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} handleClick={handleClick} />
-                        <div style={{ width: " 100%", minHeight: "50px" }} onClick={() => handleClick()} > </div>
-                        <Skills color={siteInfo.work?.color} handleClick={handleClick} />
-                        <div style={{ width: " 100%", minHeight: "130px" }} onClick={() => handleClick()} > </div>
-                    </div>
-
-                    <div className="  col-md-1 col-sm-1 px-3" onClick={() => handleClick()}   >
-
-                    </div>
+                    <div className="  col-md-1 col-sm-1 px-3"></div>
                 </div>
             </div>
         </div>
