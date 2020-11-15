@@ -28,8 +28,17 @@ const Home = () => {
         setSiteInfo({ bgColor: works[siteInfo.count].bgColor, count: siteInfo.count + 1, work: works[siteInfo.count] })
         
     }
+    const [workBgColor, setWorkBgColor] = useState("#232323");
+
+    const handleWorkBgcolor = () => {
+        if ( works[siteInfo.count].bgColor) {
+            setWorkBgColor( works[siteInfo.count].bgColor)
+        }
+    }
     return (
-        <div id="home" style={{ background: siteInfo.bgColor, minHeight: "100vh" }} onClick={() => handleClick()}>
+        <div id="home" style={{ background: siteInfo.bgColor, minHeight: "100vh" }} onClick={() => {
+            handleClick()
+            handleWorkBgcolor()}}>
 
             <Navbar color={siteInfo.work?.color} fontColor={siteInfo.work?.fontColor} />
             <Popup/>
@@ -39,7 +48,7 @@ const Home = () => {
                     <div className="col-md-2 col-sm-1 col-xs-1 " > </div>
 
                     <div className="col-md-8 col-sm-9 col-xs-9 mx-auto work-column p-0 m-0">
-                        <Work work={siteInfo.work} handleClick={handleClick} />
+                        <Work work={siteInfo.work} handleClick={handleClick} workBgColor={workBgColor} />
                         <div style={{ width: " 100%", minHeight: "50px" }}> </div>
                     </div>
 

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faPause } from '@fortawesome/free-solid-svg-icons';
 
 
-const Work = ({ work, handleClick }) => {
+const Work = ({ work, handleClick, workBgColor }) => {
     const [audio, setAudio] = useState();
     const [active, setActive] = useState(false);
     if (work?.id) {
@@ -23,16 +23,21 @@ const Work = ({ work, handleClick }) => {
         audio.pause();
         setActive(!active);
     }
-    const [backgroundColor, setBackgroundColor] = useState("#232323");
-    useEffect(() => {
-        if (work?.bgColor) {
-            setBackgroundColor(work?.bgColor)
-        }
-    }, [work])
+    
+    // const handleWorkBgcolor = () => {
+    //     if (work?.bgColor) {
+    //         setBackgroundColor(work?.bgColor)
+    //     }
+    // }
+    // useEffect(() => {
+    //     if (work?.bgColor !== "#f8f8fa") {
+    //         setBackgroundColor(work?.bgColor)
+    //     }
+    // }, [work])
 
     return (
         <div style={{ position: "relative" }} >
-            <div id="work" style={{ backgroundColor: backgroundColor }}  >
+            <div id="work" style={{ backgroundColor: workBgColor }} >
                 <div className="button-group" onClick={() => handleClick()} >
                     <a href="../../../data/Resume/IL.docx" download > <button className="resume" onClick={(e) => e.stopPropagation() }> <span> RESUME   </span>  </button> </a>
                     <a href="../../../data/Resume/US.docx" download> <button className="letter" onClick={(e) => e.stopPropagation() }> <span>   LETTER   </span>  </button> </a>
