@@ -28,7 +28,7 @@ const Work = ({ work, handleClick }) => {
         if (work?.bgColor) {
             setBackgroundColor(work?.bgColor)
         }
-    }, [work?.bgcolor])
+    }, [work])
 
     return (
         <div style={{ position: "relative" }} >

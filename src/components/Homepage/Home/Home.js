@@ -39,7 +39,7 @@ const Home = () => {
                     <div className="col-md-2 col-sm-1 col-xs-1 " > </div>
 
                     <div className="col-md-8 col-sm-9 col-xs-9 mx-auto work-column p-0 m-0">
-                        <Work key={siteInfo.count} work={siteInfo.work} handleClick={handleClick} />
+                        <Work work={siteInfo.work} handleClick={handleClick} />
                         <div style={{ width: " 100%", minHeight: "50px" }}> </div>
                     </div>
 

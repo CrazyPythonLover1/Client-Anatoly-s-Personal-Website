@@ -11,3 +11,8 @@
     padding-right: 0px;
     padding-left: 0px;
 }
+
+
+.styles_typicalWrapper__1_Uvh::after {
+    content: "" !important;
+}
